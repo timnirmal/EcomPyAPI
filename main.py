@@ -7,6 +7,8 @@ from Customer_Recommadation.main import func, func2, recommendation, CartItems, 
 from Chat_bot.chatbot_interface import chat
 from Customer_Segmentation.main import segmentation
 from User_Interactions.main import productInteraction
+from Middleware.main import userdata, search
+from Sales.main import lastOrdersReport, NumofDaysSalesReport, plotData, getSalesData
 
 print(func())
 
@@ -93,3 +95,51 @@ async def Recommendation_item(message: messageSchema):
 async def Product_Interactions(id: int):
     print(id)
     return productInteraction(id)
+
+
+@app.get("/user/{id}")
+async def User_data(id):
+    return userdata(id)
+
+
+## Product Search API
+#                                     name: name,
+#                                     brand: brand,
+#                                     priceMin: priceMin,
+#                                     priceMax: priceMax,
+#                                     rating: rating,
+#                                     color: color,
+#                                     gender: gender
+#                                     category: category
+@app.get("/search")
+async def Search(name: str = "", brand: str = "", priceMin: float = 0.0, priceMax: float = 999999.99,
+                 rating: float = 0.0, color: str = "", gender: str = "", category: str = ""):
+    return search(name, brand, priceMin, priceMax, rating, color, gender, category)
+
+
+@app.get("/search/{name}")
+async def searchByName(name):
+    return searchbyname(name)
+
+
+@app.get("/search/{category}")
+async def searchByCategory(category):
+    return searchbycategory(category)
+
+
+@app.get("/salesnum/{numoforders}")
+async def salesByNumber(numoforders):
+    return lastOrdersReport(int(numoforders))
+
+
+# Data
+@app.get("/sales/{numofdays}")
+async def salesByDays(numofdays):
+    return getSalesData(int(numofdays))
+
+
+# Plot
+@app.get("/sales/{numofdays}/plot")
+async def salesByDays(numofdays):
+    numofdays = 30
+    return plotData(numofdays=int(numofdays))

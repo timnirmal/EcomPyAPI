@@ -1,0 +1,11 @@
+[
+    {
+        "username":"Timnirmal",
+        "payment":62505.0,
+        "discount":24329,
+        "totalprice":86834.0,
+        "datetime":1632716455000,
+        "userid":"72abd6a1-9d84-432c-a114-ba27ed13bab7",
+        "orders":"[{\"id\": 291, \"quantity\": \"9\", \"created_at\": \"2022-09-10 05:57:05\", \"properties\" : {\"size\": \"L\", \"color\": \" Green\", \"material\": \"silk\"}}, {\"id\": 471, \"quantity\": \"2\", \"created_at\": \"2022-08-20 21:36:35\", \"properties\" : {\"size\": \"SM\", \"color\": \" Black\", \"material\": \"cotton\"}}, {\"id\": 150, \"quantity\": \"10\", \"created_at\": \"2021-07-21 04:47:27\", \"properties\" : {\"size\": \"SM\", \"color\": \"Blue\", \"material\": \"cotton\"}}, {\"id\": 380, \"quantity\": \"9\", \"created_at\": \"2021-05-08 03:32:28\", \"properties\" : {\"size\": \"L\", \"color\": \" Black\", \"material\": \"cotton\"}}, {\"id\": 453, \"quantity\": \"8\", \"created_at\": \"2022-02-28 00:46:56\", \"properties\" : {\"size\": \"M\", \"color\": \" Red\", \"material\": \"Linen\"}}, {\"id\": 397, \"quantity\": \"2\", \"created_at\": \"2022-02-14 21:33:34\", \"properties\" : {\"size\": \"XL\", \"color\": \"Blue\", \"material\": \"silk\"}}, {\"id\": 438, \"quantity\": \"5\", \"created_at\": \"2022-06-16 01:53:43\", \"properties\" : {\"size\": \"XXL\", \"color\": \"Blue\", \"material\": \"silk\"}}, {\"id\": 291, \"quantity\": \"1\", \"created_at\": \"2021-07-14 22:49:08\", \"properties\" : {\"size\": \"M\", \"color\": \" Green\", \"material\": \"Linen\"}}, {\"id\": 239, \"quantity\": \"7\", \"created_at\": \"2021-07-16 07:21:56\", \"properties\" : {\"size\": \"M\", \"color\": \"Blue\", \"material\": \"cotton\"}}]"
+    }
+]

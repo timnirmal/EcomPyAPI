@@ -1,0 +1,24 @@
+[
+    {
+        "id":65,
+        "name":"Park Avenue Men Green Printed Round Neck T-shirt",
+        "description":"Green and Blue printed T-shirt, has a round neck, and short sleeves",
+        "price":"$503.00",
+        "discount":13.0,
+        "availablequality":null,
+        "joinedat":"2022-01-13T02:52:51+00:00",
+        "imgurl":null,
+        "SKU":"T-s001",
+        "stock":81,
+        "rating":4.9,
+        "buyCount":0,
+        "offer":null,
+        "properties":"{'size': {'value': ['SM', 'L']}, 'color': {'value': ['white', 'blue']}, 'material': {'value': 'cotton'}}",
+        "orders":null,
+        "gender":"Men",
+        "brand":"Park Avenue",
+        "PrimaryColor":" Green",
+        "category":"T-shirt",
+        "Product Category Description":"T-shirt"
+    }
+]
