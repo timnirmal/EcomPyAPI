@@ -35,7 +35,7 @@ def search(name, brand, priceMin, priceMax, rating, color, gender, category):
     with open('products.json') as f:
         products = json.load(f)
 
-    # conver products to dataframe
+    # convert products to dataframe
     df = pd.DataFrame(products)
 
 
